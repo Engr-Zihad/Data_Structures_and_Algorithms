@@ -2,7 +2,7 @@
 using namespace std;
  
 int main() {
-  cout<<"For git test";
+ cout<<"git testing";
 return 0;
  
 }
