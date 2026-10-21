@@ -6,6 +6,8 @@ int main() {
  cout<<"Enter your number :";
  cin>>a;
 
+ //for upper pattern
+
  for(int i=0 ; i<a ; i++)
  {
     for (int j =0 ; j<a-1-i;j++)
@@ -22,6 +24,8 @@ int main() {
         cout<<'*';
     }
     cout<<endl;
+
+    //for lower pattern
     
  }
  for (int l =0 ; l< a-1 ; l++)
