@@ -10,19 +10,19 @@ int main() {
  {
     for (int j=0 ; j < i+1 ; j++)
     {
-        cout<<'*';
+        cout<<"* ";
     }
     for (int k= i ; k < (a-1) ; k++)
     {
-        cout<<" ";
+        cout<<" "<<" ";
     }
      for (int l= i; l < (a-1) ; l++)
     {
-        cout<<" ";
+        cout<<" "<<" ";
     }
     for (int m=0 ; m < i+1 ; m++)
     {
-        cout<<'*';
+        cout<<"* ";
     }
     cout<<endl;
  }
@@ -32,26 +32,47 @@ int main() {
  {
     for(int o = n ; o<a ; o++)
     {
-        cout<<'*';
+        cout<<"* ";
     }
     for (int p =0 ; p<n ;p++)
     {
-        cout<<" ";
+        cout<<" "<<" ";
     }
      for (int q =0 ; q<n ;q++)
     {
-        cout<<" ";
+        cout<<" "<<" ";
     }
     for(int r = n ; r<a ;r++)
     {
-        cout<<'*';
+        cout<<"* ";
     }
     cout<<endl;
  }
-
-
-
-
+ cout<<endl<<endl<<"new logic"<<endl<<endl;
+ for(int i=0; i<a; i++){
+        for(int j=0; j<(i+1); j++){
+            cout<<"* ";
+        }
+        for(int j=0; j<(2*(a-i)-2); j++){
+            cout<<"  ";
+        }
+        for(int j=0; j<(i+1); j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+    for(int i=0; i<a; i++){
+        for(int j=0; j<(a-i); j++){
+            cout<<"* ";
+        }
+        for(int j=0; j<(2*i); j++){
+            cout<<"  ";
+        }
+        for(int j=0; j<(a-i); j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
 
 return 0;
  
