@@ -3,11 +3,14 @@ using namespace std;
  
 int main() {
 
-    for (int i = 0 ; i < 10 ; i++)
+    int val = 1;
+
+    for (int i = 0 ; i < 5 ; i++)
     {
         for ( int j = 0 ; j< i + 1; j++)
         {
-            cout<<i;
+            cout<<val<<" ";
+            val++;
         }
         cout<<endl;
         
