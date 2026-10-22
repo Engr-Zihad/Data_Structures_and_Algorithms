@@ -11,7 +11,7 @@ int numfact(int x)    // function defination
     return fact;
 }
 
-int binomial (int m,int n)
+int binomial (int m,int n)   // pass perameter , pass by value
 {
     int factn = numfact(m);
     int factr = numfact(n);
@@ -20,7 +20,7 @@ int binomial (int m,int n)
 }
  
 int main() {
-    int a,b;
+    int a,b;  // argument
     cout<<"Enter binomial n :";
     cin>>a;
     cout<<"Enter binomial r :";
