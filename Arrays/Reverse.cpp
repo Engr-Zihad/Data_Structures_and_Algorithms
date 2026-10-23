@@ -35,7 +35,7 @@ void Reverse(int arr[],int size)
         cout<<arr[i-1]<<" ";
     }
     cout<<endl;
-    // The reverse array by  pointers
+    // The reverse array by two pointers
 
     while (start<end)
     {
