@@ -3,7 +3,7 @@ using namespace std;
 void min_max_rev(int arr[], int size);
  
 int main() {
-     int size,target;
+    int size,target;
     int arr[100];
     cout<<"Enter your array size :";
     cin>>size;
