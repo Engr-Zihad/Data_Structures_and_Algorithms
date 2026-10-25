@@ -1,3 +1,4 @@
+// mejority elements by Brute force 
 #include <iostream>
 #include<vector>
 using namespace std;
