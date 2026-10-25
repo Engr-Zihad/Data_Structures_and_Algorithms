@@ -29,8 +29,8 @@ return 0;
 }
 int majority_element(vector<int> nums,int n)
 {
-   int freq =0 , ans=nums[0],count=0;
-   for (int i =1 ; i<n;i++)
+   int freq =0 , ans=0,count=0;
+   for (int i =0 ; i<n;i++)
    {
     if(freq==0)
     {
