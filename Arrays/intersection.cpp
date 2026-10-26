@@ -1,3 +1,4 @@
+// using 2 loops 
 #include <iostream>
 using namespace std;
 
