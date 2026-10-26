@@ -1,3 +1,4 @@
+//prime fro 0 to n 
 #include <iostream>
 using namespace std;
 
