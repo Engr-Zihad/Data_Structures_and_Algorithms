@@ -1,4 +1,4 @@
-//time taken O(logn)
+//time taken O(logn) problem 50 
 #include <iostream>
 using namespace std;
 double mypow(double x , int n);
