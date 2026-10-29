@@ -26,21 +26,22 @@ double mypow(double x , int n)
         else return -1;
 
     }
-    long binform =n;
+    long double base =x;
+    long long binform =n;
     if(n<0)
     {
-        x=1/x;
+        base=1/base;
         binform = - binform;
     }
-    double answer =1;
+    long double answer =1;
     while (binform>0)
     {
         if(binform%2==1)
         {
-            answer*=x;
+            answer*=base;
         }
-        x*=x;
+        base*=base;
         binform/=2;
     }
-    return answer;
+    return (double)answer;
 }
